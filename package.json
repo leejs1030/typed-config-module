@@ -1,0 +1,27 @@
+{
+  "name": "typed-config-module",
+  "version": "0.0.1",
+  "description": "use config module and config service of nestjs with auto joi typing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leejs1030/typed-config-module.git"
+  },
+  "author": "leejs1030",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leejs1030/typed-config-module/issues"
+  },
+  "homepage": "https://github.com/leejs1030/typed-config-module#readme",
+  "devDependencies": {
+    "@types/node": "^20.4.8",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@nestjs/config": "^3.0.0",
+    "joi": "^17.9.2"
+  }
+}
